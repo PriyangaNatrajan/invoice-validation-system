@@ -63,12 +63,11 @@ invoice-validation-system/
 
 ### 1️⃣ Clone the Repository
 
-```bash
-git clone <your-repository-link>
+git clone <https://github.com/PriyangaNatrajan/invoice-validation-system>
 cd invoice-validation-system
 
 2️⃣ Create Virtual Environment
-```bash
+
 Windows:
 
 python -m venv venv
@@ -79,11 +78,9 @@ python3 -m venv venv
 source venv/bin/activate
 
 3️⃣ Install Dependencies
-```bash
 pip install -r requirements.txt
 
 ▶️ Running the Project
-```bash
 From the project root directory:
 python src/main.py
 
