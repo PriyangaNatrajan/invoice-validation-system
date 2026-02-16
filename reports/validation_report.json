@@ -1,0 +1,47 @@
+[
+    {
+        "invoice_id": "INV003",
+        "row_index": 2,
+        "issue": "Missing value in column invoice_date"
+    },
+    {
+        "invoice_id": "INV076",
+        "row_index": 75,
+        "issue": "Missing value in column total_amount"
+    },
+    {
+        "invoice_id": "INV002",
+        "row_index": 1,
+        "issue": "due date is before invoice date"
+    },
+    {
+        "invoice_id": "INV004",
+        "row_index": 3,
+        "issue": "subtotal mismatch"
+    },
+    {
+        "invoice_id": "INV007",
+        "row_index": 6,
+        "issue": "total amount is mismatched"
+    },
+    {
+        "invoice_id": "INV010",
+        "row_index": 9,
+        "issue": "total amount is mismatched"
+    },
+    {
+        "invoice_id": "INV012",
+        "row_index": 11,
+        "issue": "total amount is mismatched"
+    },
+    {
+        "invoice_id": "INV008",
+        "row_index": 7,
+        "issue": "negative quantity present"
+    },
+    {
+        "invoice_id": "INV006",
+        "row_index": 5,
+        "issue": "outlier detected in qty"
+    }
+]
