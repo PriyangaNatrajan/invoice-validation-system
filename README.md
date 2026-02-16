@@ -1,8 +1,11 @@
-##  Project Overview
+# Invoice Validation System
+
+## Project Overview
 
 This project implements a Python-based invoice validation system that processes structured invoice data and performs multiple validation checks.
 
 The system identifies inconsistencies, missing values, arithmetic mismatches, and statistical outliers, and generates a structured validation report.
+
 
 ## Validation Checks Implemented
 
@@ -30,7 +33,7 @@ The system performs the following validations:
    - Uses IQR (Interquartile Range) method to detect abnormal values in `qty`.
 
 
-## Project Structure
+##  Project Structure
 
 invoice-validation-system/
 │
@@ -55,34 +58,42 @@ invoice-validation-system/
 ├── requirements.txt
 └── README.md
 
+
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone <your-repository-link>
 cd invoice-validation-system
-2.  Create Virtual Environment
+
+2️⃣ Create Virtual Environment
+
 Windows:
 
 python -m venv venv
 venv\Scripts\activate
 
-3. Install Dependencies
+Mac/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-->> Running the Project
+▶️ Running the Project
+
 From the project root directory:
 python src/main.py
 
 Output
+
 After execution:
 
 Validation report is generated at:
-
 reports/validation_report.json
-The report contains structured details of detected issues:
 
+The report contains structured details of detected issues:
 [
     {
         "invoice_id": "INV002",
@@ -92,9 +103,10 @@ The report contains structured details of detected issues:
 ]
 
 EDA (Exploratory Data Analysis)
-EDA is provided in:
 
+EDA is provided in:
 notebooks/eda.ipynb
+
 It includes:
 
 Missing value analysis
@@ -107,12 +119,14 @@ Correlation matrix
 
 Business rule sanity checks
 
+
 Statistical Reasoning
+
 IQR method is used for outlier detection due to robustness against skewed financial data.
 
 A tolerance value is used during total reconciliation to avoid floating-point precision issues.
 
-Corrupted numeric entries are coerced to NaN to ensure pipeline robustness.
+Corrupted numeric entries are coerced to NaN to ensure pipeline robustness.\
 
 Dependencies
 
@@ -124,6 +138,6 @@ matplotlib
 
 seaborn
 
-// Author
+Author
 Priyanga N
 CIT – Data Science
