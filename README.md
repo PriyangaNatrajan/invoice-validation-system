@@ -68,7 +68,7 @@ git clone <your-repository-link>
 cd invoice-validation-system
 
 2️⃣ Create Virtual Environment
-
+```bash
 Windows:
 
 python -m venv venv
@@ -79,12 +79,14 @@ python3 -m venv venv
 source venv/bin/activate
 
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
 
 ▶️ Running the Project
-
+```bash
 From the project root directory:
 python src/main.py
+
 
 Output
 
